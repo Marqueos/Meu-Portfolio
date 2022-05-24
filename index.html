@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5635/5635302.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- ÍCONES -->
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <title>Marcos Guilherme &mdash; Desenvolvedor web</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo-img">
+            <img class="logo" alt="Omnifood logo" src="img\20220428_175837-copiar-2.webp">
+            <span class="logo-text">Marcos Guilherme</span>
+        </a>
+
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#hab">Habilidades</a></li>
+                <li><a class="main-nav-link" href="#pro">Projetos</a></li>
+
+                <li><a class="nav-cta btn--show-modal" href="mailto: guilhermemarcos1314@gmail.com ?subject=Vamos%20ter%20uma%20conversa?%20mande%20o%20assunto%20por%20aqui & cc=email@thisotherperson.com">Falar comigo</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav md hydrated" name="menu-outline" role="img" aria-label="menu outline">
+            </ion-icon>
+            <ion-icon class="icon-mobile-nav md hydrated" name="close-outline" role="img" aria-label="close outline">
+            </ion-icon>
+        </button>
+    </header>
+
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero__text-box">
+                    <h1 class="heading__primary">
+                        Ajudo a <span class="destaque">finalmente</span> tirar seus
+                        <span class="destaque">projetos</span> do papel
+                    </h1>
+                    <p class="hero__description">
+                        Quero ajudar sua empresa a crescer, oferecendo a você um site
+                        excelente que seus clientes irão adorar.
+                    </p>
+
+                    <a href="mailto: guilhermemarcos1314@gmail.com ?subject=Vamos%20ter%20uma%20conversa?%20mande%20o%20assunto%20por%20aqui & cc=email@thisotherperson.com" class="btn btn--full btn--show-modal">Vamos conversar</a>
+                    <a href="#pro" class="btn btn--text">Saiba mais &darr;</a>
+                </div>
+                <div class="hero__img-box">
+                    <!-- <img src="img/result.svg" alt=""> -->
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="section-skills" id="hab">
+            <h2 class="heading__skills center-text">Habilidades</h2>
+            <div class="container skills">
+                <div class="skill">
+                    <ion-icon class="skill-logo" name="logo-html5"></ion-icon>
+                </div>
+
+                <div class="skill">
+                    <ion-icon class="skill-logo" name="logo-css3"></ion-icon>
+                </div>
+
+                <div class="skill">
+                    <ion-icon class="skill-logo" name="logo-javascript"></ion-icon>
+                </div>
+
+                <div class="skill">
+                    <ion-icon class="skill-logo" name="logo-sass"></ion-icon>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-work" id="pro">
+            <div class="container">
+                <span class="subheading">Projetos desenvolvidos</span>
+                <h2 class="heading__secondary">
+                    Aqui estão alguns trabalhos anteriores
+                </h2>
+            </div>
+
+            <div class="container">
+                <div class="works">
+                    <div class="work">
+                        <div class="work__info-text">
+                            <p class="work-title">Omnifood</p>
+                            <p class="work-description">
+                                Omnifood é um serviço de assinatura de comida que organiza sua
+                                alimentação de uma maneira saudável através de inteligência
+                                artificial.
+                            </p>
+
+                            <a href="https://omnifood-br.netlify.app/" class="link-to" rel="noreferrer">
+                                <ion-icon class="work-icon" name="open-outline"></ion-icon><span>Ver site</span>
+                            </a>
+                        </div>
+
+                        <div class="work__img">
+                            <img src="./img/omnifood1.png" alt="Foto do website" />
+                        </div>
+                    </div>
+
+
+                    <div class="work">
+                        <div class="work__img">
+                            <img src="img/bankist1.png" alt="Foto do website" />
+                        </div>
+                        <div class="work__info-text">
+                            <p class="work-title">Bankist</p>
+                            <p class="work-description">
+                                Bankist é um site fictício de um novo banco voltado para soluções
+                                financeiras inteligentes, focado principalmente no público jovem.
+                            </p>
+
+                            <a href="https://bankist-br.netlify.app/" class="link-to">
+                                <ion-icon class="work-icon" name="open-outline"></ion-icon><span>Ver site</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <div class="work__info-text">
+                            <p class="work-title">Nexter</p>
+                            <p class="work-description">
+                                Nexter é um serviço imobiliário que disponibiliza imóveis de luxo
+                                para aluguel ou venda em várias partes do mundo.
+                            </p>
+
+                            <a href="https://nexter-br.netlify.app/" class="link-to">
+                                <ion-icon class="work-icon" name="open-outline"></ion-icon><span>Ver site</span>
+                            </a>
+                        </div>
+                        <div class="work__img">
+                            <picture>
+                                <source srcset="img/nexter1.webp" type="image/webp">
+
+                                <img src="img/nexter1.png" class="hero-img" alt="Foto do website" />
+                            </picture>
+                            <!-- <img src="./img/nexter1.png" class="front" alt="" /> -->
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                &copy; <span class="year">2027</span>
+                <a class="ColorOfLink" href="http://www.linkedin.com/in/marcos-guilherme-60895a22a" style="color:beige"
+                    target="_blank" rel="noopener noreferrer">Marcos Guilherme</a>
+            </p>
+        </div>
+    </footer>
+    <div class="modal hidden">
+        <button class="btn--close-modal">×</button>
+        <h2 class="modal__header">
+            Vamos começar a criar seu site perfeito? 😀
+        </h2>
+        <form class='modal__form' method='post' name='contato'><input type='hidden' name='form-name' value='contato' />
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="3" required></textarea>
+            
+            <a href="mailto:guilhermemarcos1314@gmail.com"><button class="btn btn--modal" >Continuar→</button></a>
+            <a class="EnviarEmail" href="mailto: guilhermemarcos1314@gmail.com ?subject=Vamos%20ter%20uma%20conversa?%20mande%20o%20assunto%20por%20aqui & cc=email@thisotherperson.com">Envie-me um e-mail</a>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+</body>
+
+</html>
